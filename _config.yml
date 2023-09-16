@@ -1,10 +1,10 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title:       Junior Theme
-email:       jonathon.bel.melbourne@gmail.com
-author:      Jonathon Belotti
-description: "A striking black-white Jekyll theme."
+title:       Resume Theme
+email:       mandhirbajaj@gmail.com
+author:      Mandhir Bajaj
+description: "Black and white Jekyle Theme"
 baseurl:     ""
 url:         "https://juniortheme.live/"
 date_format: "%b %-d, %Y"
@@ -53,17 +53,16 @@ facebook_comments_number: 10
 ###################################
 ## Social icons                  ##
 ###################################
-github_username: thundergolfer
+github_username: mandhir
 bitbucket_username:
 stackoverflow_id:
-twitter_username: jonobelotti_io
+twitter_username: mandhir64bit
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username: jonathonbelotti
+linkedin_username: mandhirbajaj
 angellist_username:
-medium_id: thundergolfer
-youtube_channel_id: UCSP7fMKwmaXaZhViAV2Vgvg
+medium_id: mandhir
 bitcoin_url:
 paypal_url:
 flattr_button:
