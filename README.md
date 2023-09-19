@@ -2,10 +2,60 @@
 
 #### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
 
-## Education
-- Analytics | Georgia Institute of Technology & EdX (_June 2018_)
-- Bioinformatics	| Seneca College (_July 2016_)
-- Life Sciences, Bioinformatics | National University of Singapore (_Jan 2014_)
+## Projects
+### SQL Query optimization
+
+[If there is a link](https://www.google.ca)
+
+Description of the project with **Skill Name (Eg. Python)** that can reside here
+
+![Name of the visual](/assets/img/stars.JPG)
+
+### Visualizing a unique type of purchase
+[If there is a link](https://www.apple.com)
+
+```
+# Convert ORDER_BOOKED_DATE to a date-only format
+open_orders$ORDER_BOOKED_DATE_ONLY <- as.Date(open_orders$ORDER_BOOKED_DATE)
+ 
+open_orders_endo <- filter(open_orders, ORG_ID == 87)
+open_orders_comm <- filter(open_orders, ORG_ID == 88)
+ 
+# Extract year and month from ORDER_BOOKED_DATE_ONLY for open_orders_endo
+aggregated_data_endo <- open_orders_endo %>%
+  group_by(Year = format(ORDER_BOOKED_DATE_ONLY, "%Y"),
+           Month = format(ORDER_BOOKED_DATE_ONLY, "%m")) %>%
+  summarize(distinct_order_count = n_distinct(ORDER_NUMBER),
+            ORG_ID = "Endo Unique Open Order Count")  # Assign custom label
+ 
+# Extract year and month from ORDER_BOOKED_DATE_ONLY for open_orders_comm
+aggregated_data_comm <- open_orders_comm %>%
+  group_by(Year = format(ORDER_BOOKED_DATE_ONLY, "%Y"),
+           Month = format(ORDER_BOOKED_DATE_ONLY, "%m")) %>%
+  summarize(distinct_order_count = n_distinct(ORDER_NUMBER),
+            ORG_ID = "Comm Unique Open Order Count")  # Assign custom label
+ 
+# Combine year and month columns for aggregated_data_endo
+aggregated_data_endo$Month <- as.Date(paste(aggregated_data_endo$Year, aggregated_data_endo$Month, "01", sep = "-"))
+ 
+# Combine year and month columns for aggregated_data_comm
+aggregated_data_comm$Month <- as.Date(paste(aggregated_data_comm$Year, aggregated_data_comm$Month, "01", sep = "-"))
+ 
+# Combine the two datasets
+combined_data <- rbind(aggregated_data_endo, aggregated_data_comm)
+ 
+# Create a line plot of combined data
+ggplot(combined_data, aes(x = Month, y = distinct_order_count, color = ORG_ID)) +
+  geom_line() +
+  scale_x_date(date_labels = "%b %Y") +
+  scale_color_manual(values = c("#FFB500", "#85458A")) +  # Set custom line colors
+  labs(title = "Distinct Open Order Count by Month", x = "Order Booked Date (mmm YYYY)", y = "Distinct Open Order Count", color = "Legend") +
+  theme_minimal()
+```
+
+Description of the project with **Skill Name (Eg. R)** that can reside here
+
+![Name of the visual](/assets/img/Count by business.png)
 
 ## Work Experience
 **Lead Analyst Business Intelligence @ Stryker (_July 2018 - Present_)**
@@ -31,21 +81,10 @@
 - Analyst responsible for efficiently pricing services and quoting prices to clients
 - Maximized revenue by building pricing models and performing rigorous analysis
 
-
-## Projects
-### Title of the Project
-[If there is a link](https://www.google.ca)
-
-Description of the project with **Skill Name (Eg. Python)** that can reside here
-
-![Name of the visual](/assets/img/stars.JPG)
-
-### Another Project
-[If there is a link](https://www.apple.com)
-
-Description of the project with **Skill Name (Eg. R)** that can reside here
-
-![Name of the visual](/assets/img/stars.JPG)
+## Education
+- Analytics | Georgia Institute of Technology & EdX (_June 2018_)
+- Bioinformatics	| Seneca College (_July 2016_)
+- Life Sciences, Bioinformatics | National University of Singapore (_Jan 2014_)
 
 ## Additional Certifications/Experience
 - Advanced SQL
