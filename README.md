@@ -55,7 +55,7 @@ ggplot(combined_data, aes(x = Month, y = distinct_order_count, color = ORG_ID)) 
 
 Description of the project with **Skill Name (Eg. R)** that can reside here
 
-![Name of the visual](/assets/img/Count by business.png)
+![Name of the visual](/assets/img/count_by_business.png)
 
 ## Work Experience
 **Lead Analyst Business Intelligence @ Stryker (_July 2018 - Present_)**
