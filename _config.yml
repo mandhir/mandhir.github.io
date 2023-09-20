@@ -107,7 +107,7 @@ author:
   name             : "Mandhir Bajaj"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Multi-faceted Data Scientist with over 7 years of experience"
-  location         : "Singaporean Citizen, Canadian Permanent Resident, Working in the US on an L1"
+  location         : "Singaporean Citizen,<br>Canadian Permanent Resident,<br>Working in the US on an L1"
   email            : "data.mandhir@gmail.com"
   links:
     - label: "Email"
