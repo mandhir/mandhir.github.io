@@ -110,10 +110,10 @@ author:
   location         : "Singaporean Citizen,<br>Canadian Permanent Resident,<br>Working in the US on an L1"
   email            : "data.mandhir@gmail.com"
   links:
-    - label: "Email"
+    - label: "data.mandhir@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:data.mandhir@gmail.com"
-    - label: "Website"
+    - label: "Github Page"
       icon: "fas fa-fw fa-link"
       url: "https://mandhir.github.io"
     - label: "Twitter"
