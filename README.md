@@ -1,17 +1,12 @@
 # Data Scientist
 
-#### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
+### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
 
-## Certifications
+## Education
 - Analytics | Georgia Institute of Technology & EdX (_Jan 2018 - Aug 2018_)		
 - Bioinformatics	| Seneca College (_Aug 2015 - July 2016_)	 			        		
 - Life Science: Bioinformatics | National University of Singapore (_Jun 2010 - Jan 2014_)
 
-
-## Education
-- Analytics MicroMasters | Georgia Institute of Technology & EdX (_Jan 2018 - Aug 2018_)								       	
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
 
 ## Work Experience
 **Lead Analyst Business Intelligence @ Stryker (_July 2018 - Present_)**
@@ -53,9 +48,33 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 ![Bike Study](/assets/img/bike_study.jpeg)
 
 ## Volunteering Activities
-**Volunteer @ Sant Nirankari Mission (_2009 - Present_)**
-**Group Facillitator @ Lighthouse Program for Grieving Children (_2019 - March 2020_)**
-**Bioinformatics Analyst @ Mount Sinai Health System in Toronto (_2019 - 2020_)**
+- Volunteer @ Sant Nirankari Mission (_2009 - Present_)
+- Group Facillitator @ Lighthouse Program for Grieving Children (_2019 - March 2020_)
+- Bioinformatics Analyst @ Mount Sinai Health System in Toronto (_2019 - 2020_)
 
 ## Additional Certifications/Experience
-- 
+- 2022	 - 	Advanced SQL	_Global Knowledge_
+- 2022	 - 	AWS Cloud Practitioner Essentials	_Global Knowledge_
+- 2022	 - 	Implementing a Data Science Solution on Azure	_Global Knowledge_
+- 2022	 - 	Data Engineering on Azure (DP-203T00)	_Global Knowledge_
+- 2022	 - 	Applied Python in Data Science	_Global Knowledge_
+- 2022	 - 	Azure Fundamentals – AZ-900	_Microsoft_
+- 2021	 - 	Analyzing Data with Microsoft PowerBI (DA-100T00)	_Microsoft_
+- 2020	 - 	Supervised Learning in R: Classification	_DataCamp_
+- 2019	 - 	Machine Learning	_Prof Andrew Ng - Coursera_
+- 2019	 - 	Python for Data Science: Intermediate	_DataQuest_
+- 2019	 - 	Data Analysis with Python	_Coursera_
+- 2019	 - 	Data Visualization with Python	_Coursera_
+- 2019	 - 	Python for Data Science and AI	_Coursera_
+- 2018	 - 	Data Analytics in Business	_Sridhar Narasimhan, PhD_
+- 2018	 - 	Computing for Data Analysis	_Richard Vuduc, PhD_
+- 2018	 - 	Analytics Modelling	_Joel Sokol, PhD_
+- 2016	 - 	Programming with Java	_Seneca College_
+- 2016	 - 	Applied Statistics	_Seneca College_
+- 2015	 - 	Programming with Perl	_Seneca College_
+- 2014	 - 	Rules & Regulations for Dealing in Securities	_Institute of Banking & Finance_
+- 2014	 - 	Securities & Futures Product Knowledge	_Institute of Banking & Finance_
+- 2014	 - 	Securities Products & Analysis	_Institute of Banking & Finance_
+- 2014	 - 	Wealth Manager	_Citibank_
+- 2013	 - 	Finalists in Hackathon	_AngelHack: Singapore_
+- 2009	 - 	Sales Director	_Rajman Overseas Pte Ltd_
