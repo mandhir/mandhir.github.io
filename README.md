@@ -7,30 +7,35 @@
 
 Initial Query:
 ```sql
-SELECT si.sale_date, si.invoice_type
-FROM business_name.sales_info AS si,
-  business_name.business_days AS bd,
-  business_name.products AS pd,
-  business_name.divisions AS div
-WHERE TO_CHAR(si.sale_date, 'YYYY') >= '2017'
-GROUP BY si.sale_date, si.invoice_type;
+SELECT * FROM business_name.sales_info,
+business_name.business_days,
+business_name.products,
+business_name.divisions
+WHERE TO_CHAR (si.sale_date, 'YYYY') >= 2017
+GROUP BY si.invoice_type;
 ```
 
 Optimized Query:
 
 ```sql
-SELECT si.sale_date, si.invoice_type
+SELECT
+si.sale_date,
+si.invoice_type,
+cs.customer_name,
+cs.customer_type,
+si.amount,
+si.quantity
 FROM business_name.sales_info AS si,
-  business_name.business_days AS bd,
+  business_name.customers AS cs,
   business_name.products AS pd,
   business_name.divisions AS div
-WHERE TO_CHAR(si.sale_date, 'YYYY') >= '2017'
+WHERE 1=1
+AND TO_CHAR (si.sale_date, 'YYYY') >= 2019
+AND si.transaction_type IN (1001, 1002, 3009)
 GROUP BY si.sale_date, si.invoice_type;
 ```
 
-Optimized queries used to pull data into SQL Server. Optimization was performed based on 
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Conducted SQL Query Optimization Projects such as the one above in collaboration with downstream users aided in improving performance of data models, reducing resource consumption/cost, enhanced scalability and better user experience (for report/dashboard creators/analysts).
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
