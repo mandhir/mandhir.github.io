@@ -18,7 +18,15 @@ GROUP BY si.sale_date, si.invoice_type;
 
 Optimized Query:
 
-![Initial Query](/assets/img/eeg_band_discovery.jpeg)
+```sql
+SELECT si.sale_date, si.invoice_type
+FROM business_name.sales_info AS si,
+  business_name.business_days AS bd,
+  business_name.products AS pd,
+  business_name.divisions AS div
+WHERE TO_CHAR(si.sale_date, 'YYYY') >= '2017'
+GROUP BY si.sale_date, si.invoice_type;
+```
 
 Optimized queries used to pull data into SQL Server. Optimization was performed based on 
 
