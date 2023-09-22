@@ -6,7 +6,7 @@
 ### SQL Query Optimization
 
 Initial Query:
-```
+```sql
 SELECT si.sale_date, si.invoice_type
 FROM business_name.sales_info AS si,
   business_name.business_days AS bd,
