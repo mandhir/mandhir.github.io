@@ -97,7 +97,7 @@ Description of what I did for this Combo deals project
 </head>
 <body>
 
-<button onclick="toggleSection()" style="background-color: #ffb500; color: white; border: 0px solid black;">Expand ></button>
+<button onclick="toggleSection()" style="background-color: #ffb500; color: white; border: 0px solid black;">+</button>
 
 <div id="toggle-section" class="toggle-section">
   <br><br>
