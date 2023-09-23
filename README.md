@@ -106,6 +106,28 @@ Description of what I did for this Combo deals project
   SELECT * FROM lallu.table_name;
   ```
 
+  <br><br>
+
+  <pre>
+  <code class="language-python">
+  import matplotlib.pyplot as plt
+
+  # Convert the Spark DataFrame to pandas DataFrame
+  pandas_df = _sqldf.toPandas()
+
+  # Plot a line chart of the sales by year
+  plt.plot(pandas_df['year'].to_numpy(), pandas_df['sales'].to_numpy())
+
+  # Set the chart title and axis labels
+  plt.title('Sales by Year')
+  plt.xlabel('Year')
+  plt.ylabel('Sales')
+
+  # Display the plot
+  plt.show()
+  </code>
+</pre>
+
   </p>
 </div>
 
