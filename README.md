@@ -117,7 +117,3 @@ Conducted SQL Query Optimization Projects such as the one above in collaboration
 - 2013	 - 	Finalists in Hackathon	_AngelHack: Singapore_
 - 2009	 - 	Sales Director	_Rajman Overseas Pte Ltd_
 
-
-
-
-
