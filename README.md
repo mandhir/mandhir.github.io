@@ -1,4 +1,3 @@
-# [UNDER CONSTRUCTION]
 # Data Science & Engineering
 
 ### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
@@ -18,9 +17,9 @@ Performed time series forecasting of orders and shipments data in databricks usi
 
 ![Visualization of Open Orders across Endo vs Comm in Databricks](/assets/img/visualization_in_R.jpg)
 
-Description of what I did for this Combo deals project
+[Code Snippet: Data Wrangling and Visualization in R](/code_snippets/wrangling_and_ggplot_visual_in_R.R)
 
-[Data Wrangling and Visualization in R](/code_snippets/wrangling_and_ggplot_visual_in_R.R)
+Description of what I did for this Combo deals project
 
 ### SQL Query Optimization
 
