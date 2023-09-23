@@ -12,9 +12,6 @@ Welcome to my project portfolio! Here, you'll find information about various pro
 
 ## Project 1
 
-<details>
-<summary>Click to expand/collapse project details</summary>
-
 ### Project Description
 
 Provide a brief description of the project.
@@ -26,6 +23,13 @@ Provide a brief description of the project.
 ### Screenshots
 
 Include screenshots or images related to this project.
+
+<details>
+<summary>Click to expand/collapse project details</summary>
+
+<code>
+Here are the details
+</code>
 
 </details>
 
