@@ -1,37 +1,73 @@
-## GitHub Pages Readme with Expandable Sections
+# Project Portfolio
 
-This is a sample README.md file for GitHub Pages that includes expandable sections. You can use these sections to add more details about your projects, such as descriptions, screenshots, and links to code repositories.
+Welcome to my project portfolio! Here, you'll find information about various projects I've worked on.
 
-To expand or collapse a section, simply click on the arrow next to the section heading.
+## Table of Contents
 
-### Projects
+- [Project 1](#project-1)
+- [Project 2](#project-2)
+- [Project 3](#project-3)
 
-**Project 1**
+---
 
-<details>
-  <summary>Click to expand</summary>
-
-  This is a description of my first project.
-
-  [Screenshot 1](https://example.com/screenshot1.png)
-  [Screenshot 2](https://example.com/screenshot2.png)
-
-  [Link to code repository](https://github.com/username/project1)
-</details>
-
-**Project 2**
+## Project 1
 
 <details>
-  <summary>Click to expand</summary>
+<summary>Click to expand/collapse project details</summary>
 
-  This is a description of my second project.
+### Project Description
 
-  [Screenshot 1](https://example.com/screenshot3.png)
-  [Screenshot 2](https://example.com/screenshot4.png)
+Provide a brief description of the project.
 
-  [Link to code repository](https://github.com/username/project2)
+### Technologies Used
+
+- List the technologies used in this project.
+
+### Screenshots
+
+Include screenshots or images related to this project.
+
 </details>
 
-...
+---
 
-You can add as many projects as you want, and you can customize the content of each project section to include any information that you think is relevant.
+## Project 2
+
+<details>
+<summary>Click to expand/collapse project details</summary>
+
+### Project Description
+
+Provide a brief description of the project.
+
+### Technologies Used
+
+- List the technologies used in this project.
+
+### Screenshots
+
+Include screenshots or images related to this project.
+
+</details>
+
+---
+
+## Project 3
+
+<details>
+<summary>Click to expand/collapse project details</summary>
+
+### Project Description
+
+Provide a brief description of the project.
+
+### Technologies Used
+
+- List the technologies used in this project.
+
+### Screenshots
+
+Include screenshots or images related to this project.
+
+</details>
+
