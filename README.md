@@ -61,50 +61,6 @@ Description of what I did for this Combo deals project
 
 ### SQL Query Optimization
 
-<html>
-<head>
-<style>
-  .toggle-section {
-    display: none;
-  }
-</style>
-</head>
-<body>
-
-<button onclick="toggleSection()" style="background-color: #ffb500; color: white; border: 0px solid black;">+</button>
-
-<div id="toggle-section" class="toggle-section">
-  <br><br>
-
-  <pre>
-  <code class="language-python">
-  import matplotlib.pyplot as plt
-
-  # Convert the Spark DataFrame to pandas DataFrame
-  pandas_df = _sqldf.toPandas()
-
-  # Plot a line chart of the sales by year
-  plt.plot(pandas_df['year'].to_numpy(), pandas_df['sales'].to_numpy())
-
-  # Set the chart title and axis labels
-  plt.title('Sales by Year')
-  plt.xlabel('Year')
-  plt.ylabel('Sales')
-
-  # Display the plot
-  plt.show()
-  </code>
-</pre>
-
-</div>
-
-<script src="/static/js/app.js"></script>
-
-</body>
-</html>
-
-
-
 Initial Query:
 ```sql
 SELECT * FROM business_name.sales_info,
