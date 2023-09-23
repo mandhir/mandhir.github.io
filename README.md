@@ -6,7 +6,6 @@
 ## Projects
 
 ### R visualization example from Combo deals notebook
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 ```r
 # Convert ORDER_BOOKED_DATE to a date-only format
@@ -146,3 +145,8 @@ Conducted SQL Query Optimization Projects such as the one above in collaboration
 - 2014	 - 	Wealth Manager	_Citibank_
 - 2013	 - 	Finalists in Hackathon	_AngelHack: Singapore_
 - 2009	 - 	Sales Director	_Rajman Overseas Pte Ltd_
+
+
+
+[Link to external repository](https://https://github.com/mandhir/cgiandpull/blob/master/mandhir_a3.cgi)
+
