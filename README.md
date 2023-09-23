@@ -87,8 +87,6 @@ Description of what I did for this Combo deals project
 
 ### SQL Query Optimization
 
-
-<!DOCTYPE html>
 <html>
 <head>
 <style>
