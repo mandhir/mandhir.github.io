@@ -3,7 +3,11 @@
 
 ### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
 
+#### *Parts of this portfolio have been obfuscated to protect privacy and security*
+
 ## Projects
+
+### Time Series Forecasting of Orders in Databricks
 
 ### R visualization example from Combo deals notebook
 
