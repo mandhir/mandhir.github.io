@@ -64,3 +64,7 @@ Welcome to my project portfolio! Here, you'll find information about various pro
 
   Include screenshots or images related to this project.
 </details>
+
+
+
+<script src = "/static/js/app.js"></script>

@@ -1,4 +1,12 @@
 
+
+document.querySelectorAll('.expandable-section').forEach(section => {
+  section.addEventListener('click', () => {
+    section.classList.toggle('expanded');
+  });
+});
+
+
 function toggleSection() {
   var section = document.getElementById("toggle-section");
   section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
