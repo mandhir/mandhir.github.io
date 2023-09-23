@@ -124,9 +124,7 @@ Description of what I did for this Combo deals project
 
 </div>
 
-<script>
-
-</script>
+<script src="/static/js/app.js"></script>
 
 </body>
 </html>
