@@ -14,6 +14,22 @@ Performed time series forecasting of orders and shipments data in databricks usi
 [Notebook: Time Series forecasting with Prophet at scale in Databricks using Spark](https://github.com/mandhir/TimeSeriesForecasting_Databricks/blob/main/Time%20Series%20Forecasting.ipynb)
 
 
+## Frequently Asked Questions
+
+<details>
+  <summary>What is Markdown?</summary>
+
+  Markdown is a lightweight markup language that allows you to create formatted text using a plain text editor. It is commonly used for writing online documentation, blog posts, and README files.
+</details>
+
+<details>
+  <summary>How do I use Markdown?</summary>
+
+  To use Markdown, simply type your text in a plain text editor and format it using Markdown syntax. For example, to create a heading, you would start a line with one or more hash symbols (#). To create a bulleted list, you would start a line with a hyphen (-) or asterisk (*).
+  For more information on Markdown syntax, please see the [Markdown documentation](https://www.markdownguide.org/basic-syntax/).
+</details>
+
+
 
 ### R visualization example from Combo deals notebook
 
