@@ -14,7 +14,7 @@ Performed time series forecasting of orders and shipments data in databricks usi
 [Notebook: Time Series forecasting with Prophet at scale in Databricks using Spark](https://github.com/mandhir/TimeSeriesForecasting_Databricks/blob/main/Time%20Series%20Forecasting.ipynb)
 
 
-### R visualization example from Combo deals notebook
+### R visualization example from Combo deals notebook in Databricks
 
 ![Visualization of Open Orders across Endo vs Comm in Databricks](/assets/img/visualization_in_R.jpg)
 
