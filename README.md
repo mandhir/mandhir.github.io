@@ -1,5 +1,12 @@
 # Project Portfolio
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
 Welcome to my project portfolio! Here, you'll find information about various projects I've worked on.
 
 ## Table of Contents
@@ -7,6 +14,18 @@ Welcome to my project portfolio! Here, you'll find information about various pro
 - [Project 1](#project-1)
 - [Project 2](#project-2)
 - [Project 3](#project-3)
+
+---
+
+### hello
+
+<div class="expandable-section">
+  <h3 class="expandable-section-heading">Click to expand</h3>
+  <div class="expandable-section-content">
+    This is the content of the expandable section.
+  </div>
+</div>
+
 
 ---
 

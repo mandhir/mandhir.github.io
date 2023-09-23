@@ -1,4 +1,20 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+.expandable-section {
+  cursor: pointer;
+}
+
+.expandable-section-content {
+  display: none;
+}
+
+.expandable-section-heading:after {
+  content: "+";
+  margin-left: 10px;
+}
+
+.expandable-section.expanded .expandable-section-content {
+  display: block;
+}
+
+.expandable-section.expanded .expandable-section-heading:after {
+  content: "-";
 }
