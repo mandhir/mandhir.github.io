@@ -122,7 +122,6 @@ Description of what I did for this Combo deals project
   </code>
 </pre>
 
-  </p>
 </div>
 
 <script>
