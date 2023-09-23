@@ -12,9 +12,9 @@
 <details>
   <summary>This is a test</summary>
 
-  ```sql
+  ``
   SELECT * FROM lallu.table_name;
-  ```
+  ``
 
 </details>
 
@@ -86,6 +86,36 @@ ggplot(combined_data, aes(x = Month, y = distinct_order_count, color = ORG_ID)) 
 Description of what I did for this Combo deals project
 
 ### SQL Query Optimization
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .toggle-section {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<button onclick="toggleSection()">Toggle Section</button>
+
+<div id="toggle-section" class="toggle-section">
+  <p>This is the content of the toggleable section.</p>
+</div>
+
+<script>
+  function toggleSection() {
+    var section = document.getElementById("toggle-section");
+    section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
+  }
+</script>
+
+</body>
+</html>
+
+
 
 Initial Query:
 ```sql
