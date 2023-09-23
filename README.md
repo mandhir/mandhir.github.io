@@ -4,6 +4,53 @@
 ### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
 
 ## Projects
+
+### R visualization example from Combo deals notebook
+[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+
+```r
+# Convert ORDER_BOOKED_DATE to a date-only format
+open_orders$ORDER_BOOKED_DATE_ONLY <- as.Date(open_orders$ORDER_BOOKED_DATE)
+
+open_orders_endo <- filter(open_orders, ORG_ID == 87)
+open_orders_comm <- filter(open_orders, ORG_ID == 88)
+
+# Extract year and month from ORDER_BOOKED_DATE_ONLY for open_orders_endo
+aggregated_data_endo <- open_orders_endo %>%
+  group_by(Year = format(ORDER_BOOKED_DATE_ONLY, "%Y"),
+           Month = format(ORDER_BOOKED_DATE_ONLY, "%m")) %>%
+  summarize(distinct_order_count = n_distinct(ORDER_NUMBER),
+            ORG_ID = "Endo Unique Open Order Count")  # Assign custom label
+
+# Extract year and month from ORDER_BOOKED_DATE_ONLY for open_orders_comm
+aggregated_data_comm <- open_orders_comm %>%
+  group_by(Year = format(ORDER_BOOKED_DATE_ONLY, "%Y"),
+           Month = format(ORDER_BOOKED_DATE_ONLY, "%m")) %>%
+  summarize(distinct_order_count = n_distinct(ORDER_NUMBER),
+            ORG_ID = "Comm Unique Open Order Count")  # Assign custom label
+
+# Combine year and month columns for aggregated_data_endo
+aggregated_data_endo$Month <- as.Date(paste(aggregated_data_endo$Year, aggregated_data_endo$Month, "01", sep = "-"))
+
+# Combine year and month columns for aggregated_data_comm
+aggregated_data_comm$Month <- as.Date(paste(aggregated_data_comm$Year, aggregated_data_comm$Month, "01", sep = "-"))
+
+# Combine the two datasets
+combined_data <- rbind(aggregated_data_endo, aggregated_data_comm)
+
+# Create a line plot of combined data
+ggplot(combined_data, aes(x = Month, y = distinct_order_count, color = ORG_ID)) +
+  geom_line() +
+  scale_x_date(date_labels = "%b %Y") +
+  scale_color_manual(values = c("#FFB500", "#85458A")) +  # Set custom line colors
+  labs(title = "Distinct Open Order Count by Month", x = "Order Booked Date (mmm YYYY)", y = "Distinct Open Order Count", color = "Legend") +
+  theme_minimal()
+```
+
+![Visualization of Open Orders across Endo vs Comm in Databricks](/assets/img/visualization_in_R.jpg)
+
+Description of what I did for this Combo deals project
+
 ### SQL Query Optimization
 
 Initial Query:
@@ -38,14 +85,6 @@ GROUP BY si.sale_date, si.invoice_type;
 
 Conducted SQL Query Optimization Projects such as the one above in collaboration with downstream users aided in improving performance of data models, reducing resource consumption/cost, enhanced scalability and better user experience (for report/dashboard creators/analysts).
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
-
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![Bike Study](/assets/img/bike_study.jpeg)
 
 ## Work Experience
 **Lead Analyst Business Intelligence @ Stryker (_July 2018 - Present_)**
