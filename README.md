@@ -100,7 +100,13 @@ Description of what I did for this Combo deals project
 <button onclick="toggleSection()">Toggle Section</button>
 
 <div id="toggle-section" class="toggle-section">
-  <p>This is the content of the toggleable section.</p>
+  <p>This is the content of the toggleable section.
+
+  ```sql
+  SELECT * FROM lallu.table_name;
+  ```
+
+  </p>
 </div>
 
 <script>
