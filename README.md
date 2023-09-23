@@ -11,67 +11,56 @@ Welcome to my project portfolio! Here, you'll find information about various pro
 ---
 
 ## Project 1
-
-### Project Description
-
-Provide a brief description of the project.
-
-### Technologies Used
-
-- List the technologies used in this project.
-
-### Screenshots
-
-Include screenshots or images related to this project.
-
 <details>
-<summary>Click to expand/collapse project details</summary>
+  <summary>Click to expand/collapse project details</summary>
 
-<code>
-Here are the details
-</code>
+  ### Project Description
 
+  Provide a brief description of the project.
+
+  ### Technologies Used
+
+  - List the technologies used in this project.
+
+  ### Screenshots
+
+  Include screenshots or images related to this project.
 </details>
 
 ---
 
 ## Project 2
-
 <details>
-<summary>Click to expand/collapse project details</summary>
+  <summary>Click to expand/collapse project details</summary>
 
-### Project Description
+  ### Project Description
 
-Provide a brief description of the project.
+  Provide a brief description of the project.
 
-### Technologies Used
+  ### Technologies Used
 
-- List the technologies used in this project.
+  - List the technologies used in this project.
 
-### Screenshots
+  ### Screenshots
 
-Include screenshots or images related to this project.
-
+  Include screenshots or images related to this project.
 </details>
 
 ---
 
 ## Project 3
-
 <details>
-<summary>Click to expand/collapse project details</summary>
+  <summary>Click to expand/collapse project details</summary>
 
-### Project Description
+  ### Project Description
 
-Provide a brief description of the project.
+  Provide a brief description of the project.
 
-### Technologies Used
+  ### Technologies Used
 
-- List the technologies used in this project.
+  - List the technologies used in this project.
 
-### Screenshots
+  ### Screenshots
 
-Include screenshots or images related to this project.
-
+  Include screenshots or images related to this project.
 </details>
-
