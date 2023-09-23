@@ -88,6 +88,13 @@ Description of what I did for this Combo deals project
 ### SQL Query Optimization
 
 <html>
+<head>
+<style>
+  .toggle-section {
+    display: none;
+  }
+</style>
+</head>
 <body>
 
 <button onclick="toggleSection()" style="background-color: #ffb500; color: white; border: 0px solid black;">+</button>
@@ -116,6 +123,10 @@ Description of what I did for this Combo deals project
 </pre>
 
 </div>
+
+<script>
+
+</script>
 
 </body>
 </html>
