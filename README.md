@@ -9,6 +9,12 @@
 
 ### Time Series Forecasting of Orders in Databricks
 
+Performed time series forecasting of orders and shipments data in databricks using Spark and Facebook Prohpet. Project was undertaken due to a demand for greater accuracy - removing seasonality and gaining greater insight into predictions of Orders and Shipments.
+
+[Notebook: Time Series forecasting with Prophet at scale in Databricks using Spark](https://github.com/mandhir/TimeSeriesForecasting_Databricks/blob/main/Time%20Series%20Forecasting.ipynb)
+
+
+
 ### R visualization example from Combo deals notebook
 
 ```r
@@ -152,5 +158,5 @@ Conducted SQL Query Optimization Projects such as the one above in collaboration
 
 
 
-[Link to external repository](https://https://github.com/mandhir/cgiandpull/blob/master/mandhir_a3.cgi)
+
 
