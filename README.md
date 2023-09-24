@@ -8,11 +8,9 @@
 
 ### Lead vendor integration into Azure Cloud BI Architecture
 
-Lead a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the Business Intelligence infrastructure on Azure. Project involved in-depth understanding of Business Intelligence Architecture, excellent project leadership skills, stakeholder management (IT, Business Leadership), UAT/SIT, Functional User Requirements Schedule development, Benefit-Cost Financial Model development, Go-Live and hypercare.
+Lead a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the **Business Intelligence** infrastructure on **Azure**. Project involved in-depth understanding of Business Intelligence Architecture (Oracle **ERP**, Oracle **DWH**, **Cognos**, **Salesforce**, Middleware, **Azure**, External Vendor platform (on **AWS**), **Power BI**), **Project Leadership** skills, **Stakeholder Management** (IT, Business Leadership), **UAT/SIT**, **Functional User Requirements** Schedule development, **Benefit-Cost Financial Model (BCFM)** development, Go-Live and hypercare.
 
 *Add visual*
-
-**Salesforce objects**
 
 ### Project Capstone: Transitioning from Cognos reporting to Power BI and development of Pricing Data Model
 
