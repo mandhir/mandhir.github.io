@@ -62,11 +62,8 @@ AND si.transaction_type IN (1001, 1002, 3009)
 GROUP BY si.sale_date, si.invoice_type;
 ```
 
-Conducted SQL Query Optimization Projects such as the one above in collaboration with downstream users aided in improving performance of data models, reducing resource consumption/cost, enhanced scalability and better user experience (for report/dashboard creators/analysts).
+Conducted **SQL** query optimization projects in collaboration with downstream users, such as the aforementioned example. This **Data Engineering** project involved enhancing data model performance, reducing resource consumption and costs, improving scalability, and optimizing the user experience for report and dashboard creators and analysts. Notably, this complex sales reporting query was streamlined by implementing filters, efficient table joining, and appropriate indexing, resulting in a 50% reduction in query execution time and a 25% decrease in resource consumption. Leveraging data profiling and performance testing, I thoroughly understood the data, identified optimization areas, and validated the outcomes of these optimizations.
 
-**SQL**
-
-**Data Engineering**
 
 ## Work Experience
 **Lead Analyst Business Intelligence @ Stryker (_July 2018 - Present_)**
