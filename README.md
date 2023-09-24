@@ -6,7 +6,7 @@
 
 ## Projects
 
-### Lead vendor integration into Azure Cloud BI Architecture
+### Lead vendor integration into internal BI Architecture
 
 Lead a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the **Business Intelligence** infrastructure on **Azure**. Project involved in-depth understanding of Business Intelligence Architecture (Oracle **ERP**, Oracle **DWH**, **Cognos**, **Salesforce**, Middleware, **Azure**, External Vendor platform (on **AWS**), **Power BI**), **Project Leadership** skills, **Stakeholder Management** (IT, Business Leadership), **UAT/SIT**, **Functional User Requirements** Schedule development, **Benefit-Cost Financial Model (BCFM)** development, Go-Live and hypercare.
 
@@ -14,21 +14,19 @@ Lead a project to integrate a Territory Management & Inventive Compensation vend
 
 ### Project Capstone: Transitioning from Cognos reporting to Power BI and development of Pricing Data Model
 
-Lead the business enablement workstream of a transition to Power BI from Cognos reporting. The leading of the workstream involved user-centric dashboard creation in Power BI, 
+Lead the business enablement workstream of the migration of reporting and analytics from IBM Cognos to Power BI. The leading of the workstream involved user-centric dashboard creation in Power BI, documentation of requirements, end-user training on Power BI and DAX
 
-Description and visual
+As a Subject Matter Expert for the business within Capstone, I have been heavily involved with the retrieval of transactional and categorical data from our on-premises Datawarehouse, importing then forming relationships within said data in Azure Analysis Services and preparing features within the dataset programmatically and in PowerBI. These features are then used to construct concise, customized visuals which are directly Commercial decision-maker-facing. 
 
-End-User Training
+Visuals such as the above are a result of a keen strategic understanding of the commercial decision-making process, the healthcare/medical device landscape and heavy technical expertise in the form of Data Retrieval, Data Modelling and visualization. 
 
-User requirements documentation
+*Visual*
 
 ### Analysis of Opportunities in Salesforce
 
-**Salesforce objects**
+The following is an example of a dashboard that I recently built which allows commercial partners to analyze quotes and opportunities data from Salesforce. The project involved understanding user requirements, Salesforce objects, Power BI and complex DAX formulas.
 
-**DAX**
-
-**Power BI**
+*Visual*
 
 ### Data Cleansing project with Regular Expressions
 
