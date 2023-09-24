@@ -1,4 +1,4 @@
-# Data Science & Engineering
+# Data Science, Engineering & Innovative Automation
 
 ### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
 
