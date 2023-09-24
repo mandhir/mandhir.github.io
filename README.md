@@ -6,6 +6,14 @@
 
 ## Projects
 
+### Project Advantage: Integration of TMIC vendor into companies' Business Intelligence Architecture
+
+Description and visual
+
+### Project Capstone: Transitioning from Cognos reporting to Power BI
+
+Description and visual
+
 ### Data Cleansing project with Regular Expressions
 
 Regular expressions (regex), serving as a potent tool for defining search patterns using sequences of characters, are pivotal in both **data cleansing** and **data transformation** processes. These versatile patterns allow for precise searching, editing, and manipulation, playing a vital role in optimizing data quality and formatting data for analysis. I have extensively utilized regex in numerous projects, especially in **R**, **Python**, and **Perl**, to achieve effective data cleansing and seamless data transformations. Here is a simple example:
