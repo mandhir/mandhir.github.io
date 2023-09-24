@@ -6,13 +6,32 @@
 
 ## Projects
 
-### Project Advantage: Integration of TMIC vendor into companies' Business Intelligence Architecture
+### Lead TMIC vendor integration into internal Azure Cloud Architecture
+
+Lead a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the Business Intelligence infrastructure on Azure. Project involved in-depth understanding of Business Intelligence Architecture, excellent project leadership skills, stakeholder management (IT, Business Leadership), UAT/SIT, Functional User Requirements Schedule development, Benefit-Cost Financial Model development, Go-Live and hypercare.
+
+*Add visual*
+
+**Salesforce objects**
+
+### Project Capstone: Transitioning from Cognos reporting to Power BI and development of Pricing Data Model
 
 Description and visual
 
-### Project Capstone: Transitioning from Cognos reporting to Power BI
+End-User Training
 
-Description and visual
+User requirements documentation
+
+### Analysis of Opportunities in Salesforce
+
+
+
+**Salesforce objects**
+
+**DAX**
+
+**Power BI**
+
 
 ### Data Cleansing project with Regular Expressions
 
