@@ -14,20 +14,7 @@ Regular expressions (regex) are a sequence of characters that define a search pa
 
 ### Time Series Forecasting of Orders in Databricks
 
-Performed time series forecasting of orders and shipments data in databricks using Spark and Facebook Prohpet. Project was undertaken due to a demand for greater accuracy - removing seasonality and gaining greater insight into predictions of Orders and Shipments.
-
-**Databricks**
-
-**Forecasting**
-
-**SQL Server**
-
-**Python**
-
-**Spark**
-
-**SQL**
-
+Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time series forecasting** of orders and shipments data from **SQL Server** to improve accuracy by removing seasonality and gaining greater insight into predictions. We leveraged **Databricks**' distributed computing capabilities and **Python** scripts to efficiently process large datasets and train forecasting models at scale. Facebook Prophet's advanced forecasting algorithms enabled us to eliminate seasonality and obtain more precise predictions, providing valuable insights for business decision-making.
 
 *Good if I can add a visual*
 
@@ -40,13 +27,8 @@ Performed time series forecasting of orders and shipments data in databricks usi
 
 [Code Snippet: Data Wrangling and Visualization in R](/code_snippets/wrangling_and_ggplot_visual_in_R.R)
 
-Description of what I did for this Combo deals project
+This project is a recent example of analysis that I performed in **R** of Orders and customer data. I retrieved data from **SQL Server** (served on **Azure**) on **Databricks** and presented my findings through advanced **data visualization** techniques using the **ggplot2** library revealing trends in open order counts over time for different organizational units.
 
-**R**
-
-**Data visualization**
-
-**Databricks**
 
 ### SQL Query Optimization
 
