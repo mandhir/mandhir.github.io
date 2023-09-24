@@ -6,6 +6,13 @@
 
 ## Projects
 
+### Data Cleansing project with Regular Expressions
+
+Regular expressions (regex) are a sequence of characters that define a search pattern. These can be used to search, edit and manipulate very specifically. I have used regex in numerous projects with R, Python and Perl. Here is a simple example:
+
+![Getting the email from a list of emails](/assets/img/regex1.jpg)
+
+
 ### Time Series Forecasting of Orders in Databricks
 
 Performed time series forecasting of orders and shipments data in databricks using Spark and Facebook Prohpet. Project was undertaken due to a demand for greater accuracy - removing seasonality and gaining greater insight into predictions of Orders and Shipments.
