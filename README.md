@@ -17,10 +17,15 @@ Regular expressions (regex) are a sequence of characters that define a search pa
 Performed time series forecasting of orders and shipments data in databricks using Spark and Facebook Prohpet. Project was undertaken due to a demand for greater accuracy - removing seasonality and gaining greater insight into predictions of Orders and Shipments.
 
 **Databricks**
+
 **Forecasting**
+
 **SQL Server**
+
 **Python**
+
 **Spark**
+
 **SQL**
 
 
@@ -38,7 +43,9 @@ Performed time series forecasting of orders and shipments data in databricks usi
 Description of what I did for this Combo deals project
 
 **R**
+
 **Data visualization**
+
 **Databricks**
 
 ### SQL Query Optimization
@@ -75,6 +82,9 @@ GROUP BY si.sale_date, si.invoice_type;
 
 Conducted SQL Query Optimization Projects such as the one above in collaboration with downstream users aided in improving performance of data models, reducing resource consumption/cost, enhanced scalability and better user experience (for report/dashboard creators/analysts).
 
+**SQL**
+
+**Data Engineering**
 
 ## Work Experience
 **Lead Analyst Business Intelligence @ Stryker (_July 2018 - Present_)**
