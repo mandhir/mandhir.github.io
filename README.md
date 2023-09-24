@@ -6,7 +6,7 @@
 
 ## Projects
 
-### Lead TMIC vendor integration into internal Azure Cloud Architecture
+### Lead vendor integration into Azure Cloud BI Architecture
 
 Lead a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the Business Intelligence infrastructure on Azure. Project involved in-depth understanding of Business Intelligence Architecture, excellent project leadership skills, stakeholder management (IT, Business Leadership), UAT/SIT, Functional User Requirements Schedule development, Benefit-Cost Financial Model development, Go-Live and hypercare.
 
@@ -16,6 +16,8 @@ Lead a project to integrate a Territory Management & Inventive Compensation vend
 
 ### Project Capstone: Transitioning from Cognos reporting to Power BI and development of Pricing Data Model
 
+Lead the business enablement workstream of a transition to Power BI from Cognos reporting. The leading of the workstream involved user-centric dashboard creation in Power BI, 
+
 Description and visual
 
 End-User Training
@@ -24,14 +26,11 @@ User requirements documentation
 
 ### Analysis of Opportunities in Salesforce
 
-
-
 **Salesforce objects**
 
 **DAX**
 
 **Power BI**
-
 
 ### Data Cleansing project with Regular Expressions
 
@@ -85,7 +84,7 @@ FROM business_name.sales_info AS si,
   business_name.divisions AS div
 WHERE 1=1
 AND TO_CHAR (si.sale_date, 'YYYY') >= 2019
-AND si.transaction_type IN (1001, 1002, 3009)
+AND si.transaction_type IN (7091, 7094, 6933)
 GROUP BY si.sale_date, si.invoice_type;
 ```
 
