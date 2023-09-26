@@ -53,7 +53,7 @@ Conducted **SQL** query optimization projects in collaboration with downstream u
 
 This **Data Engineering** project involved enhancing data model performance, reducing resource consumption and costs, improving scalability, and optimizing the user experience for report and dashboard creators and analysts. Notably, this complex sales reporting query was streamlined by implementing filters, efficient table joining, and appropriate indexing, resulting in a 50% reduction in query execution time and a 25% decrease in resource consumption. Leveraging data profiling and performance testing, I thoroughly understood the data, identified optimization areas, and validated the outcomes of these optimizations.
 
-### Distributed Computing: Time Series Forecasting of Orders in Databricks
+### Forecasting & Distributed Computing: Time Series Forecasting of Sales/Orders in Databricks
 
 Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time series forecasting** of orders and shipments data from **SQL Server** to improve accuracy by removing seasonality and gaining greater insight into predictions. We leveraged **Databricks**' distributed computing capabilities and **Python** scripts to efficiently process large datasets and train forecasting models at scale. Facebook Prophet's advanced forecasting algorithms enabled us to eliminate seasonality and obtain more precise predictions, providing valuable insights for business decision-making.
 
@@ -76,7 +76,7 @@ The following is an example of a dashboard that I recently built which allows co
 
 This project is a recent example of analysis that I performed in **R** of Orders and customer data. I retrieved data from **SQL Server** (served on **Azure**) on **Databricks** and presented my findings through advanced **data visualization** techniques using the **ggplot2** library revealing trends in open order counts over time for different organizational units.
 
-### Technical Project Leadership: Transitioning from Cognos reporting to Power BI and development of Pricing Data Model
+### Technical Project Leadership: Transitioning from Cognos reporting to Power BI
 
 ![Project Capstone Visual](/assets/img/powerbi2.jpg)
 
