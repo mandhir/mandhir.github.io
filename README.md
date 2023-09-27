@@ -65,10 +65,10 @@ Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time s
 
 ![Salesforce Opportunities Analysis Image](/assets/img/powerbi1.jpg)
 
-The following is an example of a dashboard that I recently built which allows commercial partners to analyze quotes and opportunities data from Salesforce. The project involved understanding user requirements, Salesforce objects, Power BI and complex DAX formulas.
+The above is an example of a dashboard that I recently built which allows commercial partners to analyze quotes and opportunities data from **Salesforce**. The project involved understanding user requirements, Salesforce objects, **Power BI** and complex **DAX** formulas.
 
 
-### Databricks/Azure: R visualization example from Combo deals notebook
+### Databricks/Azure: R visualization from Combo deals project
 
 ![Visualization of Open Orders across Endo vs Comm in Databricks](/assets/img/visualization_in_R.jpg)
 
