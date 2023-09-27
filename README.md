@@ -119,9 +119,3 @@ Regular expressions (regex), serving as a potent tool for defining search patter
 - 2016	 - 	Programming with Java	_Seneca College_
 - 2016	 - 	Applied Statistics	_Seneca College_
 - 2015	 - 	Programming with Perl	_Seneca College_
-- 2014	 - 	Rules & Regulations for Dealing in Securities	_Institute of Banking & Finance_
-- 2014	 - 	Securities & Futures Product Knowledge	_Institute of Banking & Finance_
-- 2014	 - 	Securities Products & Analysis	_Institute of Banking & Finance_
-- 2014	 - 	Wealth Manager	_Citibank_
-- 2013	 - 	Finalists in Hackathon	_AngelHack: Singapore_
-- 2009	 - 	Sales Director	_Rajman Overseas Pte Ltd_
