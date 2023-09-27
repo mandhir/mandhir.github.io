@@ -99,6 +99,8 @@ Regular expressions (regex), serving as a potent tool for defining search patter
 
 ![Getting the email from a list of emails](/assets/img/regex1.jpg)
 
+---
+
 ## Additional Certifications/Experience
 - 2022	 - 	Advanced SQL	_Global Knowledge_
 - 2022	 - 	AWS Cloud Practitioner Essentials	_Global Knowledge_
