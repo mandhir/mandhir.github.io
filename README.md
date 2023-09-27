@@ -125,4 +125,3 @@ Regular expressions (regex), serving as a potent tool for defining search patter
 - 2014	 - 	Wealth Manager	_Citibank_
 - 2013	 - 	Finalists in Hackathon	_AngelHack: Singapore_
 - 2009	 - 	Sales Director	_Rajman Overseas Pte Ltd_
-
