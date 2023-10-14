@@ -38,11 +38,11 @@ Optimized Query:
 
 ```sql
 SELECT
-u.Name User_Name,
-o.Name Opportunity_Name,
-q.Name Quote_Number,
-p.ProductCode Product_Code,
-SUM(op.Quantity) Quantity,
+u.Name AS User_Name,
+o.Name AS Opportunity_Name,
+q.Name AS Quote_Number,
+p.ProductCode AS Product_Code,
+SUM(op.Quantity) AS Quantity,
 FROM crm_name.user AS u
 INNER JOIN crm_name.opportunities AS o ON o.CreatedById = u.Id
 INNER JOIN crm_name.quotes AS q ON o.Id = q.BigMachines__Opportunity__c
