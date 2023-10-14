@@ -43,12 +43,12 @@ o.Name Opportunity_Name,
 q.Name Quote_Number,
 p.ProductCode Product_Code,
 SUM(op.Quantity) Quantity,
-FROM sfdc.sfdc_user_comm AS u
-INNER JOIN sfdc.sfdc_opportunity_comm AS o ON o.CreatedById = u.Id
-INNER JOIN sfdc.sfdc_quote_comm AS q ON o.Id = q.BigMachines__Opportunity__c
-INNER JOIN sfdc.sfdc_opportunity_product_comm AS op ON o.Id = op.OpportunityId
-INNER JOIN sfdc.sfdc_pricebook_entry_comm AS pb ON op.PriceBookEntryId = pb.Id
-INNER JOIN sfdc.sfdc_product_comm AS p ON pb.Product2Id = p.Id
+FROM crm_name.user AS u
+INNER JOIN crm_name.opportunities AS o ON o.CreatedById = u.Id
+INNER JOIN crm_name.quotes AS q ON o.Id = q.BigMachines__Opportunity__c
+INNER JOIN crm_name.opportunities_products AS op ON o.Id = op.OpportunityId
+INNER JOIN crm_name.pricebook AS pb ON op.PriceBookEntryId = pb.Id
+INNER JOIN crm_name.products AS p ON pb.Product2Id = p.Id
 WHERE 1=1
 AND u.Email = 'mandhir@obfuscated.com'
 AND o.CreatedDate >= '2019-01-01'
