@@ -20,38 +20,47 @@ Managed a project to integrate a Territory Management & Inventive Compensation v
 
 Initial Query:
 ```sql
-SELECT * FROM business_name.sales_info,
-business_name.business_days,
-business_name.products,
-business_name.divisions
-WHERE TO_CHAR (si.sale_date, 'YYYY') >= 2017
-GROUP BY si.invoice_type;
+SELECT *
+FROM crm_name.user AS u
+INNER JOIN crm_name.opportunities AS o ON o.CreatedById = u.Id
+INNER JOIN crm_name.quotes AS q ON o.Id = q.BigMachines__Opportunity__c
+INNER JOIN crm_name.opportunities_products AS op ON o.Id = op.OpportunityId
+INNER JOIN crm_name.pricebook AS pb ON op.PriceBookEntryId = pb.Id
+INNER JOIN crm_name.products AS p ON pb.Product2Id = p.Id
+WHERE u.Email = 'mandhir@obfuscated.com'
+AND TO_CHAR (o.CreatedDate, 'YYYY') >= 2017
+ORDER BY Quote_Number,
+Product_Code;
+
 ```
 
 Optimized Query:
 
 ```sql
 SELECT
-si.sale_date,
-si.invoice_type,
-cs.customer_name,
-cs.customer_type,
-si.amount,
-si.quantity
-FROM business_name.sales_info AS si,
-  business_name.customers AS cs,
-  business_name.products AS pd,
-  business_name.divisions AS div
+u.Name User_Name,
+o.Name Opportunity_Name,
+q.Name Quote_Number,
+p.ProductCode Product_Code,
+SUM(op.Quantity) Quantity,
+FROM sfdc.sfdc_user_comm AS u
+INNER JOIN sfdc.sfdc_opportunity_comm AS o ON o.CreatedById = u.Id
+INNER JOIN sfdc.sfdc_quote_comm AS q ON o.Id = q.BigMachines__Opportunity__c
+INNER JOIN sfdc.sfdc_opportunity_product_comm AS op ON o.Id = op.OpportunityId
+INNER JOIN sfdc.sfdc_pricebook_entry_comm AS pb ON op.PriceBookEntryId = pb.Id
+INNER JOIN sfdc.sfdc_product_comm AS p ON pb.Product2Id = p.Id
 WHERE 1=1
-AND si.sale_date >= '2019-01-01'
-AND si.transaction_type IN (7091, 7094, 6933)
-GROUP BY si.sale_date, si.invoice_type
-HAVING si.invoice_type IN ('STANDARD', 'CD');
+AND u.Email = 'mandhir@obfuscated.com'
+AND o.CreatedDate >= '2019-01-01'
+AND o.Quote_type IN (7091, 7094, 6933)
+GROUP BY User_Name, Opportunity_Name, Quote_Number, Product_Code
+HAVING Quote_Number NOT LIKE '0000%'
+ORDER BY User_Name, Opportunity_Name, Quote_Number, Product_Code;
 ```
 
 Conducted **SQL** query optimization projects in collaboration with downstream users, such as the aforementioned example. A number of optimizations have been performed in this example:
 1. Selecting only the columns requested by downstream users
-2. Selecting only transaction types that are required by users
+2. Selecting only record types that are required by users
 3. Ensuring that the query is sargable. Ensuring that the database engine can compare to a value that is of the same data type as the data in the column thereby ensuring more efficient index utilization
 4. [General rule] Understanding and optimizing based on order of SQL query execution (FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, LIMIT) and by using EXPLAIN & ANALYZE
 
