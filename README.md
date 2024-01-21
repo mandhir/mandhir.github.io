@@ -61,7 +61,7 @@ ORDER BY User_Name, Opportunity_Name, Quote_Number, Product_Code;
 Conducted **SQL** query optimization projects in collaboration with downstream users, such as the aforementioned example. A number of optimizations have been performed in this example:
 1. Selecting only the columns requested by downstream users
 2. Selecting only record types that are required by users
-3. Ensuring that the query is sargable. Ensuring that the database engine can compare to a value that is of the same data type as the data in the column thereby ensuring more efficient index utilization
+3. Ensuring that the query is sargable. Ensuring that the database engine can use indexes or can compare to a value that is of the same data type as the data in the column thereby ensuring more efficient index utilization
 4. [General rule] Understanding and optimizing based on order of SQL query execution (FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, LIMIT) and by using EXPLAIN & ANALYZE
 
 This **Data Engineering** project involved enhancing data model performance, reducing resource consumption and costs, improving scalability, and optimizing the user experience for report and dashboard creators and analysts. Notably, this complex sales reporting query was streamlined by implementing filters, efficient table joining, and appropriate indexing, resulting in a 50% reduction in query execution time and a 25% decrease in resource consumption. Leveraging data profiling and performance testing, I thoroughly understood the data, identified optimization areas, and validated the outcomes of these optimizations.
