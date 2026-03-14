@@ -16,6 +16,7 @@
 | **Cloud & Big Data** | Azure, Databricks, PySpark |
 | **Databases**        | PostgreSQL, SAP HANA BW    |
 | **Visualization**    | Power BI                   |
+
 #### Last updated: March, 2026
 
 ![Introduction_Slide](assets/img/Pasted%20image%2020260314104944.png)
