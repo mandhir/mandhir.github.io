@@ -4,6 +4,8 @@
 
 #### Last updated: March, 2026
 
+*Parts of this portfolio have been obfuscated to protect privacy and security.*
+
 ---
 
 ![Timeline](assets/img/Pasted%20image%2020260314115543.png)
@@ -13,7 +15,9 @@
 - Operates at both the **strategic** and **execution** layers — from **roadmap design** to **hands-on delivery**
 - Proven ability to balance and advance **multiple strategic priorities simultaneously**
 
-*Parts of this portfolio have been obfuscated to protect privacy and security.*
+---
+
+![2020_Innovation_Award](assets/img/Pasted%20image%2020260314133431.png)
 
 ---
 
