@@ -2,11 +2,12 @@
 
 ## Leadership/Program Skills:
 
-| Leadership Competency              | Evidence                                                                                                                                                                                                                                      |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Strategic Roadmap & Prioritization | Designed and implemented a Data Analytics Delivery Strategy with a formalized project intake and organizational impact evaluation framework — enabling the team to prioritize the right work, accelerate delivery, and scale analytics output |
-| Mentorship & Talent Development    | Mentored peers and junior analytics professionals and Instructed 120+ students across multiple bootcamp cohorts (4.85/5 rating)                                                                                                               |
-| Cross-Functional Team Leadership   | Led teams across IT, Finance, Commercial, Operations (Supply Planning, Manufacturing) and Business Enablement across multiple  initiatives at Stryker                                                                                         |
+| Leadership Competency | Evidence |
+| :--- | :--- |
+| **Strategic Roadmap & Prioritization** | Designed and implemented a Data Analytics Delivery Strategy with a formalized project intake and organizational impact evaluation framework — enabling the team to prioritize the right work, accelerate delivery, and scale analytics output |
+| **Mentorship & Talent Development** | Mentored peers and junior analytics professionals and Instructed 120+ students across multiple bootcamp cohorts (4.85/5 rating) |
+| **Cross-Functional Team Leadership** | Led teams across IT, Finance, Commercial, Operations (Supply Planning, Manufacturing) and Business Enablement across multiple initiatives at Stryker |
+
 ## Hands-On Technical Skills:
 
 | Category             | Tools                      |
@@ -33,7 +34,6 @@ Delivered a multi-month data analytics program for Supply Planning and Integrate
 ![](assets/img/Pasted%20image%2020260314102806.png)
 
 ---
-
 
 
 ![](assets/img/Pasted%20image%2020260314103047.png)
