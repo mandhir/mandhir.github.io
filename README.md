@@ -6,10 +6,10 @@
 
 ![Timeline](assets/img/Pasted%20image%2020260314115543.png)
 
-- Promoted consistently — recognized for both technical depth and leadership impact
-- End-to-end experience spanning data engineering, analytics delivery strategy, and cross-functional program delivery
-- Operates at both the strategic and execution layers — from roadmap design to hands-on delivery
-- Proven ability to balance and advance multiple strategic priorities simultaneously
+- **Promoted consistently** — recognized for both technical depth and leadership impact
+- End-to-end experience spanning **data engineering**, **analytics delivery strategy**, and **cross-functional program delivery**
+- Operates at both the **strategic** and **execution** layers — from **roadmap design** to **hands-on delivery**
+- Proven ability to balance and advance **multiple strategic priorities simultaneously**
 
 *Parts of this portfolio have been obfuscated to protect privacy and security.*
 
@@ -155,11 +155,9 @@ Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time s
 
 ### Power BI: Analysis of Opportunities in Salesforce
 
-![](assets/img/Pasted%20image%2020260314104122.png)
+![Salesforce_Opportunities_Analysis](assets/img/Pasted%20image%2020260314104122.png)
 
-![Salesforce Opportunities Analysis Image](./assets/img/powerbi1.jpg)
-
-The above is an example of a dashboard that I recently built which allows commercial partners to analyze quotes and opportunities data from **Salesforce**. The project involved understanding user requirements, Salesforce objects, **Power BI** and complex **DAX** formulas.
+The above is an example of a dashboard that I built which allows commercial partners to analyze quotes and opportunities data from **Salesforce**. The project involved Complex data modeling from Salesforce (above left), understanding user requirements, Salesforce objects, **Power BI** and complex **DAX** formulas.
 
 ---
 
@@ -185,6 +183,17 @@ Lead the business enablement workstream of the migration of reporting and analyt
 Developed a script that automatically responded to requests for information sent by front-line personnel. The script (originally developed in R and Perl) was then developed in Python - monitored a unified inbox for email requests for information. Upon receipt of a relevant email, the script would extract customer identifiers, item numbers and the nature of the information asked for, gather the data requested, format a excel workbook and provide the data requested as an attachment to the sender. This script called "auto-responder" served internal users and saved the team it supported several hours of manual data gathering and saved recipient teams from any human errors.
 
 [Link to script/repository]()
+
+---
+
+### Data Engineering eliminated need for external vendor
+
+![DAT tool elinimation](assets/img/Pasted%20image%2020260314132714.png)
+
+- Engineered a data availability pipeline in **Perl and R** to process **25GB / ~14 million rows** of contracts and pricing data retrieved from Oracle
+- Built a structured 9-step pipeline covering data ingestion, cleaning, deduplication, segmentation, filtering, and output generation
+- Delivered formatted Excel reports for Sales & Marketing, eliminating reliance on an external vendor and saving the organisation **>€10,000 per year**
+- Solutions written across **Perl** (script coordination), **R** (dataframe manipulation), and **Python** (automation and orchestration)
 
 ---
 
