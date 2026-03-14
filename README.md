@@ -1,16 +1,54 @@
 # Data Science, Engineering & Innovative Automation
 
-### Technical Skills: Python, R, Perl, SQL, Azure, Power BI
+## Leadership/Program Skills:
 
+| Leadership Competency              | Evidence                                                                                                                                                                                                                                      |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Strategic Roadmap & Prioritization | Designed and implemented a Data Analytics Delivery Strategy with a formalized project intake and organizational impact evaluation framework — enabling the team to prioritize the right work, accelerate delivery, and scale analytics output |
+| Mentorship & Talent Development    | Mentored peers and junior analytics professionals and Instructed 120+ students across multiple bootcamp cohorts (4.85/5 rating)                                                                                                               |
+| Cross-Functional Team Leadership   | Led teams across IT, Finance, Commercial, Operations (Supply Planning, Manufacturing) and Business Enablement across multiple  initiatives at Stryker                                                                                         |
+## Hands-On Technical Skills:
+
+| Category             | Tools                      |
+| -------------------- | -------------------------- |
+| **Languages**        | Python, R, Perl, SQL       |
+| **Cloud & Big Data** | Azure, Databricks, PySpark |
+| **Databases**        | PostgreSQL, SAP HANA BW    |
+| **Visualization**    | Power BI                   |
+#### Last updated: March, 2026
+
+![[Pasted image 20260314104944.png]]
 #### *Parts of this portfolio have been obfuscated to protect privacy and security*
+
 ---
 ## Projects
 
 ---
+### Technical Program Leadership: Full Stack Data Engineering
 
+![[Pasted image 20260314102553.png]]
+
+Delivered a multi-month data analytics program for Supply Planning and Integrated Business Planning in a $4bn business.
+
+![[Pasted image 20260314102806.png]]
+
+---
+
+
+
+![[Pasted image 20260314103047.png]]
+
+---
+
+
+
+![[Pasted image 20260314103826.png]]
+
+
+---
 ### Technical Project Leadership: Lead vendor integration into internal BI Architecture
 
-![Advantage](/assets/img/advantage.jpg)
+![Advantage](../assets/img/advantage.jpg)
 
 Managed a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the **Business Intelligence** infrastructure on **Azure**. Project involved in-depth understanding of Business Intelligence Architecture (Oracle **ERP**, Oracle **DWH**, **Cognos**, **Salesforce**, Middleware, **Azure**, External Vendor platform (on **AWS**), **Power BI**), **Project Leadership** skills, **Stakeholder Management** (IT, Business Leadership), **UAT/SIT**, **Functional User Requirements** Schedule development, **Benefit-Cost Financial Model (BCFM)** development, Go-Live and hypercare.
 
@@ -72,7 +110,7 @@ This **Data Engineering** project involved enhancing data model performance, red
 
 Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time series forecasting** of orders and shipments data from **SQL Server** to improve accuracy by removing seasonality and gaining greater insight into predictions. We leveraged **Databricks**' distributed computing capabilities and **Python** scripts to efficiently process large datasets and train forecasting models at scale. Facebook Prophet's advanced forecasting algorithms enabled us to eliminate seasonality and obtain more precise predictions, providing valuable insights for business decision-making.
 
-![Time Series Analysis](/assets/img/timeseries.jpg)
+![Time Series Analysis](./assets/img/timeseries.jpg)
 
 [Notebook: Time Series forecasting with Prophet at scale in Databricks using Spark](https://github.com/mandhir/TimeSeriesForecasting_Databricks/blob/main/Time%20Series%20Forecasting.ipynb)
 
@@ -80,7 +118,9 @@ Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time s
 
 ### Power BI: Analysis of Opportunities in Salesforce
 
-![Salesforce Opportunities Analysis Image](/assets/img/powerbi1.jpg)
+![[Pasted image 20260314104122.png]]
+
+![Salesforce Opportunities Analysis Image](./assets/img/powerbi1.jpg)
 
 The above is an example of a dashboard that I recently built which allows commercial partners to analyze quotes and opportunities data from **Salesforce**. The project involved understanding user requirements, Salesforce objects, **Power BI** and complex **DAX** formulas.
 
@@ -88,9 +128,9 @@ The above is an example of a dashboard that I recently built which allows commer
 
 ### Databricks/Azure: R visualization from Combo deals project
 
-![Visualization of Open Orders across Endo vs Comm in Databricks](/assets/img/visualization_in_R.jpg)
+![Visualization of Open Orders across Endo vs Comm in Databricks](./assets/img/visualization_in_R.jpg)
 
-[Code Snippet: Data Wrangling and Visualization in R](/code_snippets/wrangling_and_ggplot_visual_in_R.R)
+[Code Snippet: Data Wrangling and Visualization in R](./code_snippets/wrangling_and_ggplot_visual_in_R.R)
 
 This project is a recent example of analysis that I performed in **R** of Orders and customer data. I retrieved data from **SQL Server** (served on **Azure**) on **Databricks** and presented my findings through advanced **data visualization** techniques using the **ggplot2** library revealing trends in open order counts over time for different organizational units.
 
@@ -98,15 +138,14 @@ This project is a recent example of analysis that I performed in **R** of Orders
 
 ### Technical Project Leadership: Transitioning from Cognos reporting to Power BI
 
-![Project Capstone Visual](/assets/img/powerbi2.jpg)
-
 Lead the business enablement workstream of the migration of reporting and analytics from **IBM Cognos** to **Power BI**. The leading of the workstream involved user-centric dashboard creation in Power BI, documentation of requirements, the user of **Azure Analysis Services** and conducting comprehensive end-user training on **Power BI** and **DAX**. I collaborated with **multiple stakeholders** (Commercial leadership, IT) and worked to establish dashboards with visuals tailored for commercial decision-making. This project has given me a deep understanding of the strategic commercial decision-making process.
 
 ---
-
 ### Innovative Automation: Automated email requests for information
 
-Developed a script that automatically responded to requests for information sent by front-line personell. The script (originally developed in R and Perl) was then developed in Python - monitored a unified inbox for email requests for information. Upon receipt of a relevant email, the script would extract customer identifiers, item numbers and the nature of the information asked for, gather the data requested, format a excel workbook and provide the data requested as an attachment to the sender. This script called "auto-responder" served internal users and saved the team it supported several hours of manual data gathering and saved receipient teams from any human errors.
+![[Pasted image 20260314104529.png]]
+
+Developed a script that automatically responded to requests for information sent by front-line personnel. The script (originally developed in R and Perl) was then developed in Python - monitored a unified inbox for email requests for information. Upon receipt of a relevant email, the script would extract customer identifiers, item numbers and the nature of the information asked for, gather the data requested, format a excel workbook and provide the data requested as an attachment to the sender. This script called "auto-responder" served internal users and saved the team it supported several hours of manual data gathering and saved recipient teams from any human errors.
 
 [Link to script/repository]()
 
@@ -114,7 +153,7 @@ Developed a script that automatically responded to requests for information sent
 
 ### Innovative Automation: Automated Pricing Discrepancies resolution
 
-A problem that our team faced was invoicing delays due to pricing errors. The team would receive emails from front-line personell asking questions regarding pricing. Team members would manually search for correct pricing and coordinate communication with front-line personnell and marketing. I automated this process through business process mapping, developing scripts in (originally R and Perl) and then Python. These scripts extracted data from our data warehouse, processed the errors that required coordination with marketing and sales reps, identified the appropriate stakeholders, emailed them and provided responses to pricing teams members for downstream execution of the resolution of those errors. This automation saved over $100,000 annually in collected invoices and saved over 2000+ hours of manual work.
+A problem that our team faced was invoicing delays due to pricing errors. The team would receive emails from front-line personnel asking questions regarding pricing. Team members would manually search for correct pricing and coordinate communication with front-line personnel and marketing. I automated this process through business process mapping, developing scripts in (originally R and Perl) and then Python. These scripts extracted data from our data warehouse, processed the errors that required coordination with marketing and sales reps, identified the appropriate stakeholders, emailed them and provided responses to pricing teams members for downstream execution of the resolution of those errors. This automation saved over $100,000 annually in collected invoices and saved over 2000+ hours of manual work.
 
 ---
 
@@ -122,7 +161,7 @@ A problem that our team faced was invoicing delays due to pricing errors. The te
 
 Regular expressions (regex), serving as a potent tool for defining search patterns using sequences of characters, are pivotal in both **data cleansing** and **data transformation** processes. These versatile patterns allow for precise searching, editing, and manipulation, playing a vital role in optimizing data quality and formatting data for analysis. I have extensively utilized regex in numerous projects, especially in **R**, **Python**, and **Perl**, to achieve effective data cleansing and seamless data transformations. Here is a simple example:
 
-![Getting the email from a list of emails](/assets/img/regex1.jpg)
+![Getting the email from a list of emails](./assets/img/regex1.jpg)
 
 ---
 
