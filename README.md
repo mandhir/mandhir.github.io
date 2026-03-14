@@ -71,7 +71,15 @@ A four-phase Data Analytics Delivery Strategy roadmap, designed to drive immedia
 
 ![Self-Serve Analytics Dashboards](assets/img/Pasted%20image%2020260314103047.png)
 
-Two self-service Power BI dashboards built to reduce ad-hoc data requests and empower business users to access data on demand. The left dashboard provides a **Communications Business Overview** with multi-dimensional filters across product family, sales rep, facility type, and customer — aggregating measures by business unit across multiple years. The right dashboard is a **Joint Replacement Planning Analytics Self-Service Dashboard**, allowing users to filter by data type, ship location, region, component, family, MFG site, ship type, BU, and part number — surfacing shipment values, NRP quantities, and order data across a rolling monthly timeline. Together these dashboards exemplify the principle: *give the people what they want, when they want it*.
+**The Power of Self-Service Analytics** - *give the people what they want, when they want it*
+
+- Launched **two self-service Power BI dashboards** — among the **highest-usage** dashboards amongst the audience — to reduce ad-hoc requests and empower business users to access data on demand
+- **Multi-dimensional filters and dynamic aggregations** designed around the most common ways users slice and aggregate data — spanning multiple data types, business units, product families, regions, facility types, sales reps, ship locations, part numbers, and rolling time periods
+- Built on **certified, stamped "one source of truth"** data sources — ensuring consistent, trustworthy figures across all business decisions
+- **Direct data delivery** to end users — no intermediaries, no waiting, no manual pulls
+- Address a **myriad of business questions** without requiring analyst intervention for every request
+- Free the **Data Engineering & Analytics team** from reactive ad-hoc work — enabling focus on long-term, sustainable, scalable solutions
+- Reduce **organisational dependency** on individuals — institutional knowledge is embedded in the dashboard, not in a person
 
 ---
 
