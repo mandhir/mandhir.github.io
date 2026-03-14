@@ -17,7 +17,7 @@
 | **Visualization**    | Power BI                   |
 #### Last updated: March, 2026
 
-![[Pasted image 20260314104944.png]]
+![Introduction_Slide](assets/img/Pasted%20image%2020260314104944.png)
 #### *Parts of this portfolio have been obfuscated to protect privacy and security*
 
 ---
@@ -26,23 +26,32 @@
 ---
 ### Technical Program Leadership: Full Stack Data Engineering
 
-![[Pasted image 20260314102553.png]]
+![](assets/img/Pasted%20image%2020260314102553.png)
 
 Delivered a multi-month data analytics program for Supply Planning and Integrated Business Planning in a $4bn business.
 
-![[Pasted image 20260314102806.png]]
+![](assets/img/Pasted%20image%2020260314102806.png)
 
 ---
 
 
 
-![[Pasted image 20260314103047.png]]
+![](assets/img/Pasted%20image%2020260314103047.png)
 
 ---
 
+```
+/Users/manu/Documents/GitHub/mandhir.github.io/README.md
 
+/Users/manu/Documents/GitHub/mandhir.github.io/assets/img
 
-![[Pasted image 20260314103826.png]]
+assets/img
+
+%20
+
+```
+
+![Mentorship Feedback](assets/img/Pasted%20image%2020260314103826.png)
 
 
 ---
@@ -118,7 +127,7 @@ Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time s
 
 ### Power BI: Analysis of Opportunities in Salesforce
 
-![[Pasted image 20260314104122.png]]
+![](assets/img/Pasted%20image%2020260314104122.png)
 
 ![Salesforce Opportunities Analysis Image](./assets/img/powerbi1.jpg)
 
@@ -143,7 +152,7 @@ Lead the business enablement workstream of the migration of reporting and analyt
 ---
 ### Innovative Automation: Automated email requests for information
 
-![[Pasted image 20260314104529.png]]
+![](assets/img/Pasted%20image%2020260314104529.png)
 
 Developed a script that automatically responded to requests for information sent by front-line personnel. The script (originally developed in R and Perl) was then developed in Python - monitored a unified inbox for email requests for information. Upon receipt of a relevant email, the script would extract customer identifiers, item numbers and the nature of the information asked for, gather the data requested, format a excel workbook and provide the data requested as an attachment to the sender. This script called "auto-responder" served internal users and saved the team it supported several hours of manual data gathering and saved recipient teams from any human errors.
 
