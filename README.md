@@ -1,5 +1,7 @@
 # Data Engineering, Analytics Architecture & Innovative Automation
 
+#### Last updated: March, 2026
+
 ## Leadership/Program Skills:
 
 | Leadership Competency | Evidence |
@@ -16,8 +18,6 @@
 | **Cloud & Big Data** | Azure, Databricks, PySpark |
 | **Databases**        | PostgreSQL, SAP HANA BW    |
 | **Visualization**    | Power BI                   |
-
-#### Last updated: March, 2026
 
 ![Introduction_Slide](assets/img/Pasted%20image%2020260314104944.png)
 #### *Parts of this portfolio have been obfuscated to protect privacy and security*
