@@ -2,6 +2,21 @@
 
 #### Last updated: March, 2026
 
+---
+
+## Introduction
+
+![Timeline](assets/img/Pasted%20image%2020260314115543.png)
+
+- Promoted consistently — recognized for both technical depth and leadership impact
+- End-to-end experience spanning data engineering, analytics delivery strategy, and cross-functional program delivery
+- Operates at both the strategic and execution layers — from roadmap design to hands-on delivery
+- Proven ability to balance and advance multiple strategic priorities simultaneously
+
+*Parts of this portfolio have been obfuscated to protect privacy and security.*
+
+---
+
 ## Leadership/Program Skills:
 
 | Leadership Competency | Evidence |
@@ -10,52 +25,66 @@
 | **Mentorship & Talent Development** | Mentored peers and junior analytics professionals and Instructed 120+ students across multiple bootcamp cohorts (4.85/5 rating) |
 | **Cross-Functional Team Leadership** | Led teams across IT, Finance, Commercial, Operations (Supply Planning, Manufacturing) and Business Enablement across multiple initiatives at Stryker |
 
-## Hands-On Technical Skills:
+---
 
-| Category             | Tools                      |
-| -------------------- | -------------------------- |
-| **Languages**        | Python, R, Perl, SQL       |
+## Hands-On Technical Skills
+
+| Category | Tools |
+| --- | --- |
+| **Languages** | Python, R, Perl, SQL |
 | **Cloud & Big Data** | Azure, Databricks, PySpark |
-| **Databases**        | PostgreSQL, SAP HANA BW    |
-| **Visualization**    | Power BI                   |
-
-![Introduction_Slide](assets/img/Pasted%20image%2020260314104944.png)
-#### *Parts of this portfolio have been obfuscated to protect privacy and security*
+| **Databases** | PostgreSQL, SAP HANA BW |
+| **Visualization** | Power BI |
 
 ---
+
 ## Projects
 
 ---
 ### Technical Program Leadership: Full Stack Data Engineering
 
-![](assets/img/Pasted%20image%2020260314102553.png)
+![Full-Stack Data Engineering Architecture Diagram](assets/img/Pasted%20image%2020260314102553.png)
+
+A full-stack architecture diagram showing the end-to-end data pipeline for Supply Planning and Integrated Business Planning. Data flows from multiple source systems — Legacy ERPs (BPCS, PRMS), Data Warehouses (Artemis, Envision, SAP BW), SQL Server, SharePoint, and Unity Catalogue — through an orchestration layer comprising a Virtual Machine (SYK Gateway), **Azure Data Factory**, and **Databricks**. Data is served via a **PostgreSQL Server** and surfaced to decision makers through **Power BI**. A planned **Power Apps** layer is shown for future user input and self-service capability.
 
 Delivered a multi-month data analytics program for Supply Planning and Integrated Business Planning in a $4bn business.
 
-![](assets/img/Pasted%20image%2020260314102806.png)
+---
+### Strategic Roadmap: Data Analytics Delivery Strategy
+
+![Roadmap: Data Analytics Delivery Strategy](assets/img/Pasted%20image%2020260314102806.png)
+
+A four-phase Data Analytics Delivery Strategy roadmap, designed to drive immediate business impact while building a sustainable, scalable infrastructure. Each phase has a clear objective and set of deliverables:
+
+- **Phase 1 – Discovery**: Team assembly, goal alignment, data discovery, project intake, and relationship building to orient the team and understand business processes.
+- **Phase 2 – Visible Wins**: Requirements gathering, data quality fixes, semi-automation, KPI development, and migration from manual Excel processes to Python/R/Power BI to deliver quick, visible value.
+- **Phase 3 – Build to Scale**: Data engineering on Azure Data Factory, data dictionary creation, internal team upskilling, change management, and best-in-class Power BI dashboard delivery.
+- **Phase 4 – Infrastructure Set Up**: Standardized reporting, formalized architecture, data access & security (RLS), pipeline performance monitoring, query optimizations, and end-user communication.
 
 ---
 
+### Project Details: Self-Serve Analytics
 
-![](assets/img/Pasted%20image%2020260314103047.png)
+![Self-Serve Analytics Dashboards](assets/img/Pasted%20image%2020260314103047.png)
+
+Two self-service Power BI dashboards built to reduce ad-hoc data requests and empower business users to access data on demand. The left dashboard provides a **Communications Business Overview** with multi-dimensional filters across product family, sales rep, facility type, and customer — aggregating measures by business unit across multiple years. The right dashboard is a **Joint Replacement Planning Analytics Self-Service Dashboard**, allowing users to filter by data type, ship location, region, component, family, MFG site, ship type, BU, and part number — surfacing shipment values, NRP quantities, and order data across a rolling monthly timeline. Together these dashboards exemplify the principle: *give the people what they want, when they want it*.
+
+---
+
+### Mentorship & Teaching: Data Analytics Instructor
+
+![Feedback Received: Data Analytics Instructor](assets/img/Pasted%20image%2020260314103826.png)
+
+A collage of feedback received as a Data Analytics Instructor and mentor. Highlights include:
+
+- Recognition as **Project Lead** from the Canada PMO for driving technical and business leadership beyond a typical project lead role, delivering on time through perseverance and expertise.
+- Praised for embracing **PMO adoption and culture change** as a strategic partner to the Canadian business.
+- Described as *"skilled, creative, analytical and passionate"* with a learner mindset and high professionalism.
+- Student bootcamp feedback noting he was *"far more competent"* than peers, offering extra sessions to support students and explaining concepts in a *"clear and well-paced manner."*
+- Direct student messages expressing appreciation for mentoring in programming and encouraging continued growth.
 
 ---
 
-```
-/Users/manu/Documents/GitHub/mandhir.github.io/README.md
-
-/Users/manu/Documents/GitHub/mandhir.github.io/assets/img
-
-assets/img
-
-%20
-
-```
-
-![Mentorship Feedback](assets/img/Pasted%20image%2020260314103826.png)
-
-
----
 ### Technical Project Leadership: Lead vendor integration into internal BI Architecture
 
 ![Advantage](../assets/img/advantage.jpg)
