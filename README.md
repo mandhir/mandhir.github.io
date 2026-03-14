@@ -1,4 +1,6 @@
-# Data Engineering, Analytics Architecture & Innovative Automation
+# Data Engineering
+# Analytics Architecture
+# & Innovative Automation
 
 #### Last updated: March, 2026
 
