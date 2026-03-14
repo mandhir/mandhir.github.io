@@ -1,4 +1,4 @@
-# Data Science, Engineering & Innovative Automation
+# Data Engineering, Analytics Architecture & Innovative Automation
 
 ## Leadership/Program Skills:
 
