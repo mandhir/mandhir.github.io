@@ -4,8 +4,6 @@
 
 ---
 
-## Introduction
-
 ![Timeline](assets/img/Pasted%20image%2020260314115543.png)
 
 - Promoted consistently — recognized for both technical depth and leadership impact
