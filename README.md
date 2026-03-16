@@ -47,7 +47,7 @@
 ---
 ### Technical Program Leadership: Full Stack Data Engineering
 
-![Full-Stack Data Engineering Architecture Diagram](assets/img/Pasted%20image%2020260314102553.png)
+![Full-Stack Data Engineering Architecture Diagram](assets/img/1%20-%20Full%20Stack%20Data%20Engineering.png)
 
 A full-stack architecture diagram showing the end-to-end data pipeline for Supply Planning and Integrated Business Planning. Data flows from multiple source systems — Legacy ERPs (BPCS, PRMS), Data Warehouses (Artemis, Envision, SAP BW), SQL Server, SharePoint, and Unity Catalogue — through an orchestration layer comprising a Virtual Machine (SYK Gateway), **Azure Data Factory**, and **Databricks**. Data is served via a **PostgreSQL Server** and surfaced to decision makers through **Power BI**. A planned **Power Apps** layer is shown for future user input and self-service capability.
 
@@ -56,7 +56,7 @@ Delivered a multi-month data analytics program for Supply Planning and Integrate
 ---
 ### Strategic Roadmap: Data Analytics Delivery Strategy
 
-![Roadmap: Data Analytics Delivery Strategy](assets/img/Pasted%20image%2020260314102806.png)
+![Roadmap: Data Analytics Delivery Strategy](assets/img/2%20-%20Data%20Analytics%20Delivery%20Strategy.png)
 
 A four-phase Data Analytics Delivery Strategy roadmap, designed to drive immediate business impact while building a sustainable, scalable infrastructure. Each phase has a clear objective and set of deliverables:
 
@@ -85,7 +85,7 @@ A four-phase Data Analytics Delivery Strategy roadmap, designed to drive immedia
 
 ### Mentorship & Teaching: Data Analytics Instructor
 
-![Feedback Received: Data Analytics Instructor](assets/img/Pasted%20image%2020260314103826.png)
+![Feedback Received: Data Analytics Instructor](assets/img/3%20-%20Self%20Serve%20Analytics.png)
 
 A collage of feedback received as a Data Analytics Instructor and mentor. Highlights include:
 
@@ -169,7 +169,7 @@ Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time s
 
 ### Power BI: Analysis of Opportunities in Salesforce
 
-![Salesforce_Opportunities_Analysis](assets/img/Pasted%20image%2020260314104122.png)
+![Salesforce_Opportunities_Analysis](assets/img/4%20-%20CRM%20Data%20modelling.png)
 
 The above is an example of a dashboard that I built which allows commercial partners to analyze quotes and opportunities data from **Salesforce**. The project involved Complex data modeling from Salesforce (above left), understanding user requirements, Salesforce objects, **Power BI** and complex **DAX** formulas.
 
