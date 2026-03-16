@@ -157,16 +157,6 @@ This **Data Engineering** project involved enhancing data model performance, red
 
 ---
 
-### Forecasting & Distributed Computing: Time Series Forecasting of Sales/Orders in Databricks
-
-Using **Databricks**, **Spark**, and **Facebook Prophet**, we performed **time series forecasting** of orders and shipments data from **SQL Server** to improve accuracy by removing seasonality and gaining greater insight into predictions. We leveraged **Databricks**' distributed computing capabilities and **Python** scripts to efficiently process large datasets and train forecasting models at scale. Facebook Prophet's advanced forecasting algorithms enabled us to eliminate seasonality and obtain more precise predictions, providing valuable insights for business decision-making.
-
-![Time Series Analysis](./assets/img/timeseries.jpg)
-
-[Notebook: Time Series forecasting with Prophet at scale in Databricks using Spark](https://github.com/mandhir/TimeSeriesForecasting_Databricks/blob/main/Time%20Series%20Forecasting.ipynb)
-
----
-
 ### Power BI: Analysis of Opportunities in Salesforce
 
 ![Salesforce_Opportunities_Analysis](assets/img/4%20-%20CRM%20Data%20modelling.png)
