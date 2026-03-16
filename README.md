@@ -69,7 +69,7 @@ A four-phase Data Analytics Delivery Strategy roadmap, designed to drive immedia
 
 ### Project Details: Self-Serve Analytics
 
-![Self-Serve Analytics Dashboards](assets/img/Pasted%20image%2020260314103047.png)
+![Self-Serve Analytics Dashboards](assets/img/3%20-%20Self%20Serve%20Analytics.png)
 
 **The Power of Self-Service Analytics** - *give the people what they want, when they want it*
 
@@ -85,7 +85,7 @@ A four-phase Data Analytics Delivery Strategy roadmap, designed to drive immedia
 
 ### Mentorship & Teaching: Data Analytics Instructor
 
-![Feedback Received: Data Analytics Instructor](assets/img/3%20-%20Self%20Serve%20Analytics.png)
+![Feedback Received: Data Analytics Instructor](assets/img/Pasted%20image%2020260314103826.png)
 
 A collage of feedback received as a Data Analytics Instructor and mentor. Highlights include:
 
