@@ -99,7 +99,7 @@ A collage of feedback received as a Data Analytics Instructor and mentor. Highli
 
 ### Technical Project Leadership: Lead vendor integration into internal BI Architecture
 
-![Advantage](../assets/img/advantage.jpg)
+![Project Advantage](../assets/img/advantage.jpg)
 
 Managed a project to integrate a Territory Management & Inventive Compensation vendor into organization's internal business intelligence architecture. Project involved understanding the unique database objects, entity relationships, business processes and helping to architect the **Business Intelligence** infrastructure on **Azure**. Project involved in-depth understanding of Business Intelligence Architecture (Oracle **ERP**, Oracle **DWH**, **Cognos**, **Salesforce**, Middleware, **Azure**, External Vendor platform (on **AWS**), **Power BI**), **Project Leadership** skills, **Stakeholder Management** (IT, Business Leadership), **UAT/SIT**, **Functional User Requirements** Schedule development, **Benefit-Cost Financial Model (BCFM)** development, Go-Live and hypercare.
 
@@ -192,7 +192,7 @@ Lead the business enablement workstream of the migration of reporting and analyt
 ---
 ### Innovative Automation: Automated email requests for information
 
-![](assets/img/Pasted%20image%2020260314104529.png)
+![Auto-Responder](assets/img/5%20-%20Automated%20Data%20Dissemination.png)
 
 Developed a script that automatically responded to requests for information sent by front-line personnel. The script (originally developed in R and Perl) was then developed in Python - monitored a unified inbox for email requests for information. Upon receipt of a relevant email, the script would extract customer identifiers, item numbers and the nature of the information asked for, gather the data requested, format a excel workbook and provide the data requested as an attachment to the sender. This script called "auto-responder" served internal users and saved the team it supported several hours of manual data gathering and saved recipient teams from any human errors.
 
