@@ -216,22 +216,9 @@ Regular expressions (regex), serving as a potent tool for defining search patter
 ---
 
 ## Additional Certifications/Experience
-- 2022	 - 	Advanced SQL	_Global Knowledge_
-- 2022	 - 	AWS Cloud Practitioner Essentials	_Global Knowledge_
-- 2022	 - 	Implementing a Data Science Solution on Azure	_Global Knowledge_
-- 2022	 - 	Data Engineering on Azure (DP-203T00)	_Global Knowledge_
-- 2022	 - 	Applied Python in Data Science	_Global Knowledge_
-- 2022	 - 	Azure Fundamentals – AZ-900	_Microsoft_
-- 2021	 - 	Analyzing Data with Microsoft PowerBI (DA-100T00)	_Microsoft_
-- 2020	 - 	Supervised Learning in R: Classification	_DataCamp_
-- 2019	 - 	Machine Learning	_Prof Andrew Ng - Coursera_
-- 2019	 - 	Python for Data Science: Intermediate	_DataQuest_
-- 2019	 - 	Data Analysis with Python	_Coursera_
-- 2019	 - 	Data Visualization with Python	_Coursera_
-- 2019	 - 	Python for Data Science and AI	_Coursera_
-- 2018	 - 	Data Analytics in Business	_Sridhar Narasimhan, PhD_
-- 2018	 - 	Computing for Data Analysis	_Richard Vuduc, PhD_
-- 2018	 - 	Analytics Modelling	_Joel Sokol, PhD_
-- 2016	 - 	Programming with Java	_Seneca College_
-- 2016	 - 	Applied Statistics	_Seneca College_
-- 2015	 - 	Programming with Perl	_Seneca College_
+- 2025:  Data Engineering in PostgreSQL
+- 2024:  Managing Analytics Teams, Mastering Executive-Level Data Analytics
+- 2022:  Advanced SQL, AWS Cloud Practitioner Essentials, Implementing a Data Science Solution on Azure, Data Engineering on Azure (DP-203T00), Applied Python in Data Science, Azure Fundamentals – AZ-900
+- 2021:  Analyzing Data with Microsoft PowerBI (DA-100T00)
+- 2020:  Supervised Learning in R: Classification
+- 2019:  Machine Learning, Python for Data Science: Intermediate, Data Analysis with Python, Data Visualization with Python, Python for Data Science and AI
